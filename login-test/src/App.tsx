@@ -1,5 +1,11 @@
+import KakaoLogin from "./component/KakaoLogin";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <KakaoLogin />
+    </>
+  );
 }
 
 export default App;
