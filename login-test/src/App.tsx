@@ -1,13 +1,7 @@
-import KakaoCallback from "./component/KakaoCallback";
-import KakaoLogin from "./component/KakaoLogin";
+import Router from "./Router";
 
 function App() {
-  return (
-    <>
-      <KakaoLogin />
-      <KakaoCallback />
-    </>
-  );
+  return <Router />;
 }
 
 export default App;
