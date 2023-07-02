@@ -1,3 +1,5 @@
+// KakaoCallback.tsx
+
 import { useEffect } from "react";
 import axios from "axios";
 import { CLIENT_ID, REDIRECT_URI } from "../constant/OAuth";
