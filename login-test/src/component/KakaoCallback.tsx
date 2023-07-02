@@ -7,7 +7,7 @@ interface resInfo {
     kakao_account: {
       profile: object;
     };
-    access_token: object;
+    access_token: string;
   };
 }
 
