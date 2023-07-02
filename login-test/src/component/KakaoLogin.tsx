@@ -5,7 +5,10 @@ function KakaoLogin() {
   return (
     <div>
       <a href={KAKAO_AUTH_URL}>
-        <img src={loginLogo} />
+        <img
+          src={loginLogo}
+          alt="카카오로 계속하기"
+        />
       </a>
     </div>
   );
