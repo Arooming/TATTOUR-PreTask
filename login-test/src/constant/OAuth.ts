@@ -1,3 +1,5 @@
+// OAuth.ts
+
 export const CLIENT_ID = import.meta.env.VITE_APP_REST_API_KEY;
 export const REDIRECT_URI = import.meta.env.VITE_APP_REDIRECT_URI;
 

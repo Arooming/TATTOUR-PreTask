@@ -1,3 +1,5 @@
+// KakaoLogin.tsx
+
 import { KAKAO_AUTH_URL } from "../constant/OAuth";
 import loginLogo from "../assets/loginLogo.png";
 
@@ -5,10 +7,7 @@ function KakaoLogin() {
   return (
     <div>
       <a href={KAKAO_AUTH_URL}>
-        <img
-          src={loginLogo}
-          alt="카카오로 계속하기"
-        />
+        <img src={loginLogo} alt="카카오로 계속하기" />
       </a>
     </div>
   );
